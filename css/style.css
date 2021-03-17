@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+  font-family: EntezareZohoor2;
+  src: url('fonts/EntezareZohoor2.eot');
+  src: url('fonts/EntezareZohoor2.eot?') format('☺'),
+       url('fonts/EntezareZohoor2.woff') format('woff'),
+       url('fonts/EntezareZohoor2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: MyHelvetica;
+  src: local("Helvetica Neue Bold"),
+       local("HelveticaNeue-Bold"),
+       url(MgOpenModernaBold.ttf);
+  font-weight: bold;
+}
+.title{
+    color: antiquewhite;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(206, 19, 19);
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+}
+
+.main_dash{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+hr{
+    background-color: grey;
+    height: 2px;
+}
+
+p{
+    font-size: 40px;
+    font-family: MyHelvetica, Tahoma, serif;
+}
+.user_dash, .compt_dash, .divider_dash{
+    display: inline-block;
+}
+
+.user_dash, .compt_dash{
+    padding: 10px;
+}
+
+.divider_dash{
+    background-color: white;
+    height: 150px;
+    width: 4px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.guiding_message{
+    text-align: center;
+    color: aliceblue;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container_main{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.container_img_rock, .container_img_paper, .container_img_scissor{
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: rgb(206, 19, 19);
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+    /* display: inline-block;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    margin-left: 60px;
+    border-radius: 50%; */
+}
+
+.img_rock:hover{
+    transform: scale(1.5);
+    box-shadow: 4px 2px 20px 1px;
+}
+
+.img_paper:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 20px 1px;
+}
+
+.img_scissor:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 20px 1px;
+}
+
+.img_rock, .img_paper, .img_scissor{
+    transition: 1s ease-in-out;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.final_say{
+    margin-top: 30px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+}
